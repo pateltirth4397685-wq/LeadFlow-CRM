@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{const btn=document.getElementById("menuBtn"),sidebar=document.getElementById("sidebar");if(btn)btn.addEventListener("click",()=>sidebar.classList.toggle("open"));setTimeout(()=>document.querySelectorAll(".alert").forEach(a=>{if(window.bootstrap)new bootstrap.Alert(a)}),100)});
