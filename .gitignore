@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .env
 *.db
 __pycache__/
@@ -8,3 +9,15 @@ venv/
 instance/*.db
 .idea/
 .vscode/
+=======
+.env
+*.db
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+instance/*.db
+.idea/
+.vscode/
+>>>>>>> 49f8c2b7fdd2a180ec0cc017c4dffa4fe1c3a8ea
